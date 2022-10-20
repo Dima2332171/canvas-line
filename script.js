@@ -143,9 +143,7 @@ class Initialize{
     }
 
     hideLines(){
-
         for (let i = 0; i < dots.length; i++) {
-            console.log(dots[i][0],dots[i][0]-100, dots[i][1], dots[i][2], dots[i][3])
             setInterval(()=>{
                 ctx.beginPath();
                 ctx.moveTo(dots[i][0], dots[i][1]);
